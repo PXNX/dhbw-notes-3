@@ -1,1 +1,5 @@
-* PA:::: invrsion of control --- entkoppelung
+* PA:::: inversion of control --- entkoppelung
+* set methode statt instanziierungin konstruktor --- wird machen es aber via beans
+* implementierung mit qconroller oder subklasse annotieren
+* in der kalsse in die es dann rein soll @autowired an klassenattribut ran --- besser wäre es bei konstruktor (best practice)
+* 
