@@ -1,5 +1,15 @@
+---
+### Dependency Injection
 * PA:::: inversion of control --- entkoppelung
 * set methode statt instanziierungin konstruktor --- wird machen es aber via beans
 * implementierung mit qconroller oder subklasse annotieren
 * in der kalsse in die es dann rein soll @autowired an klassenattribut ran --- besser wäre es bei konstruktor (best practice)
-* 
+---
+### Testing
+* PA:::: Integrationtest, nicht nur Unit Test??
+* annotation @springboottest und @autowired
+* gleiche ordnerstruktur
+### test doubles
+* fake: alternative implementierung, aber bräuchte viel aufwand
+* mock: automatische generierung, fokus auf aufruf, gibt standardwerte zurück (Boolean false, Integer 0, Object null)
+* stub: fokus auf ergebnis, semi-automatische generierung, wir können verhalten anpassen (somit kiene standardwerte)
