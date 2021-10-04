@@ -1,7 +1,10 @@
 ## Allgemein
-* vscode: ctrl + shift + p und dann java clean language server oder so eingeben
-* shit + alt + f für pretty print
-
+### VS-Code shortcuts
+|shortcut|action|
+|---|---|
+|<kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> und dann java clean language server oder so eingeben|wenn was rot ist|
+|<kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>f</kbd>|pretty print|
+---
 ## Aufbau Spring
 * service
 * controller
